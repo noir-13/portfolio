@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+         @apply bg-[#0c0c0c] relative text-white font-sans h-screen overflow-x-hidden
+    }
+   
+    .card {
+        @apply hover:border-[#68cefe] hover:shadow-[0px_0px_10px_1px_#68cefe]  transition-all backdrop-filter bg-opacity-10 backdrop-blur-xl rounded-lg p-5 w-[250px]  sm:w-[300px]  ring-1  ring-gray-800 grid-cols-1  }
+}
+

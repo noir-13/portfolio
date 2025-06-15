@@ -6,7 +6,7 @@ const projects = () => {
   const img2 = "./ava.png"
 
   return (
-    <section id="projects" className="relative flex flex-col items-center justify-center max-w-full min-h-screen gap-5 px-20 py-10 sm:flex-row sm:flex-wrap text-slate-500">
+    <section id="projects" className="flex flex-col items-center justify-center max-w-full min-h-screen gap-5 px-20 py-10  sm:flex-row sm:flex-wrap text-slate-500">
   
 
  <div data-aos="fade-down"

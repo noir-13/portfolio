@@ -64,6 +64,11 @@ const header = () => {
         <li><a className="text-xl hover:opacity-75" onClick={()=>navigate("about") }>About me</a></li>
         <li><a className="text-xl hover:opacity-75" onClick={()=>navigate("projects")}>Projects</a></li>
         <li><a className="text-xl hover:opacity-75" onClick={()=>navigate("contact")}>Contact</a></li>
+        <li> <a data-aos="fade-down"
+               data-aos-easing="linear"
+               data-aos-duration="3000" id='dl'  className="z-50 text-xl tracking-wider transition-colors text-white hover:text-white bg-[#4789f4] px-3  py-1 rounded-lg " href={pdf} download={pdf} onClick={handleClick}
+      style={{ pointerEvents: disabled ? 'none' : 'auto', opacity: disabled ? 0.5 : 1 }}
+   >Download CV </a></li>
         
       </ul>
     </header>
